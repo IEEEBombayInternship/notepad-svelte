@@ -2,4 +2,8 @@
 	import Editor from './editor.svelte';
 </script>
 
-<Editor/>
+
+<div style="margin: 0 auto; width: 50%;">
+	<!-- Editor prop -->
+	<Editor/>
+  </div>

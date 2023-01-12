@@ -1,10 +1,13 @@
+<!-- This script makes a quill js instance and binds it to a div
+Edit this script to make changes to the editor window -->
+
 <script>
 	import {  onMount } from 'svelte'
 	import Quill from "quill";
     
 	let quill = null;
     // @ts-ignore
-    export let container = null;
+  export let container = null;
 	
   onMount( () => { 
 		// @ts-ignore
